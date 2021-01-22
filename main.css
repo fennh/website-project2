@@ -1,0 +1,271 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar {
+    list-style-type: none;
+    background-color:#4d4d4d;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  
+
+  .navbar a{
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 80px 14px 80px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    margin: 0;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a:active {
+    background-color: #4CAF50;
+    color: white;
+    margin: 0;
+  }
+
+h1 {
+    background-color:#4d4d4d;
+    color:white;
+    text-align:center;
+    padding-top: 15px;
+    padding-bottom: 10px ;}
+    
+
+h2 { background-image: url("plants.jpg");
+    font-size: 70px;
+    padding: 80px;
+    color:rgb(0,0,0,0.7);
+    text-align:center;
+}
+
+h3 { font-size: 95%;
+     text-align: center;
+     color: darkgray;
+}
+
+.row {
+    display: flex;
+  }
+  
+
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+.caption{
+    color:gray;
+    font-size: 60%;
+}
+
+.strokescontainer {
+  width:100%;
+  height: 380px;
+}
+
+
+.strokes{
+  font-size: 90%;
+  color: darkgray;
+  height: 100%;
+  width: 40%;
+  float: left;
+  padding-left: 0px;
+  padding-right: 400px;
+  margin-left: 100px;
+}
+
+.strokesimage{
+  float: right;
+  width: 40%;
+  height: 50px;
+  padding-left: 1200px;
+  padding-right: 0px;
+  margin-right: 0x;
+  margin-left: 0px;
+}
+
+.bloomcontainer{
+  width:100%;
+  height: 380px;
+}
+
+
+.bloom{
+  font-size: 90%;
+  color: darkgray;
+  height: 100%;
+  width: 50%;
+  float: right;
+  padding-left: 500px;
+  padding-right: 0px;
+  margin-right: 150px;
+  
+
+}
+
+.bloomimage{
+  float: left;
+  width: 40%;
+  height: 40px;
+  padding-left: 0px;
+  padding-right: 400px;
+  margin-right: 0x;
+  margin-left: 100px;
+}
+
+.blondecontainer {
+  width:100%;
+  height: 380px;
+}
+
+
+.blonde{
+  font-size: 90%;
+  color: darkgray;
+  height: 100%;
+  width: 45%;
+  float: left;
+  padding-left: 0px;
+  padding-right: 400px;
+  margin-left: 100px;
+}
+
+.blondeimage{
+  float: right;
+  width: 40%;
+  height: 50px;
+  padding-left: 1200px;
+  padding-right: 0px;
+  margin-right: 0x;
+  margin-left: 0px;
+}
+
+.bonivercontainer{
+  width:100%;
+  height: 380px;
+}
+
+
+.boniver{
+  font-size: 90%;
+  color: darkgray;
+  height: 150%;
+  width: 50%;
+  float: right;
+  padding-left: 500px;
+  padding-right: 0px;
+  margin-right: 150px;
+  
+
+}
+
+.boniverimage{
+  float: left;
+  width: 40%;
+  height: 50px;
+  padding-left: 0px;
+  padding-right: 400px;
+  margin-right: 0x;
+  margin-left: 100px;
+}
+
+.punishercontainer {
+  width:100%;
+  height: 380px;
+}
+
+
+.punisher{
+  font-size: 90%;
+  color: darkgray;
+  height: 100%;
+  width: 40%;
+  float: left;
+  padding-left: 0px;
+  padding-right: 400px;
+  margin-left: 100px;
+}
+
+.punisherimage{
+  float: right;
+  width: 40%;
+  height: 50px;
+  padding-left: 1200px;
+  padding-right: 0px;
+  margin-right: 0x;
+  margin-left: 0px;
+}
+
+.shorecontainer{
+  width:100%;
+  height: 380px;
+}
+
+
+.shore{
+  font-size: 90%;
+  color: darkgray;
+  height: 100%;
+  width: 50%;
+  float: right;
+  padding-left: 500px;
+  padding-right: 0px;
+  margin-right: 150px;
+  
+
+}
+
+.shoreimage{
+  float: left;
+  width: 40%;
+  height: 40px;
+  padding-left: 0px;
+  padding-right: 400px;
+  margin-right: 0x;
+  margin-left: 100px;
+}
+
+.avalanchescontainer {
+  width:100%;
+  height: 380px;
+}
+
+
+.avalanches{
+  font-size: 90%;
+  color: darkgray;
+  height: 100%;
+  width: 45%;
+  float: left;
+  padding-left: 0px;
+  padding-right: 400px;
+  margin-left: 100px;
+}
+
+.avalanchesimage{
+  float: right;
+  width: 40%;
+  height: 50px;
+  padding-left: 1200px;
+  padding-right: 0px;
+  margin-right: 0x;
+  margin-left: 0px;
+}
